@@ -184,6 +184,18 @@
           "description": "Domain anmeldung"
         }
       ]
+    },
+    {
+      "category": "Main",
+      "icon": "fa-folder",
+      "items": [
+        {
+          "text": "ComComS Webnavigator",
+          "url": "https://comcoms-it-consulting.github.io/comcoms-WebNavigator",
+          "icon": "fa-power-off",
+          "description": "Die Anwenung zu diesem Zeug"
+        }
+      ]
     }
   ]
 }

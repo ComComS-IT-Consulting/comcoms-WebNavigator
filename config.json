@@ -1,4 +1,4 @@
-{
+﻿{
   "company": {
     "name": "comcoms",
     "tagline": "Complete Computer Systems",
@@ -14,6 +14,12 @@
           "url": "https://comcoms.rmmservice.eu/",
           "icon": "fa-laptop",
           "description": "Remote Monitoring & Management"
+        },
+        {
+          "text": "Terra Technical Center",
+          "url": "https://manage.terracloud.de/login",
+          "icon": "fa-list-check",
+          "description": "Login über Terra Cloud Center"
         }
       ]
     },
@@ -32,6 +38,24 @@
           "url": "https://partner.intra2net.com/de/index.php",
           "icon": "fa-fire",
           "description": "Netzwerk-Sicherheit"
+        },
+        {
+          "text": "ESET MSP Admin",
+          "url": "https://identity.eset.com/login/pwd?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DEset.EMA%26redirect_uri%3Dhttps%253A%252F%252Fmsp.eset.com%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520eset_id%2520email%26response_mode%3Dform_post%26nonce%3D638409771849527757.ZjQ2YzRiMjctZTcwYy00NDM0LWE1YjUtY2NhMGU0YjU1NWEwNDcwMmI3MDUtYTVkZS00YWEzLTgwN2YtNzMyYzU1Y2QxMTJm%26state%3DCfDJ8NwK1mOjRypEr_mJu4xtkfCQhxRpOsXypx0TUmv4IOBt9UJKlf4TTLlTIDCY25RtFAfjHgVliIV4K-Mm2Z-ktYqDzgsN6KqD2P_IzWzQIVs9W2wuV380iKjIBWDghNU8AM5BZLEwOk8Euux87gXYLj9CeqRLkpnsW83gbDOXWv3dI0sW8Ke1SiF23ag_PXQgt_DPapO4mbBtxv144T1D-IjLloMgyFG7N36LPByFYnFEAZ1JHk2UmbfhRCgsUIlP6muqMEufipUIFm1EFzUzQX8XT9OVDo1X23gwjHdUh2QSIA9OITf29HwlWcIzGi7YdnBP6F6JjjQo6fUzOlTFbGZV5kY-vMuF9GOJDBoNkEqCu0Cp6f_bDkqs3YMUxwaU579aqWkCxtm3qFNtFO-NrPeUENRVJSpzhaxayYhzfrtwCyzoJjL8WgS_LICqTzkEFw",
+          "icon": "fa-virus-slash",
+          "description": "Benötig Google Authentificator"
+        },
+        {
+          "text": "ESET Business Account",
+          "url": "https://eba.eset.com/ba",
+          "icon": "fa-bacteria",
+          "description": "Business Account 2FA - Google Identificator"
+        },
+        {
+          "text": "ESSET Protect Cloud Dashboard",
+          "url": "https://identity.eset.com/login/pwd?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DERA%26response_type%3Dcode%26scope%3Dopenid%2520profile%2520eset_id%2520eca%26ui_locales%3Den-US%26redirect_uri%3Dhttps%253A%252F%252Fprotect.eset.com",
+          "icon": "fa-chart-pie",
+          "description": "Dashboard 2FA Google Identificator"
         }
       ]
     },
@@ -40,8 +64,8 @@
       "icon": "fa-database",
       "items": [
         {
-          "text": "Backup Manager",
-          "url": "https://example.com/backup",
+          "text": "TERRA Cloud Backup",
+          "url": "https://manage.terracloud.de/login",
           "icon": "fa-cloud-arrow-up",
           "description": "Datensicherung & Wiederherstellung"
         }
@@ -62,6 +86,102 @@
           "url": "https://portal.azure.com",
           "icon": "fa-cloud",
           "description": "Azure Cloud Management"
+        }
+      ]
+    },
+    {
+      "category": "Partner Portale",
+      "icon": "fa-folder",
+      "items": [
+        {
+          "text": "ESET Partner Portal",
+          "url": "https://portal.eset.de/",
+          "icon": "fa-globe",
+          "description": "Partner Portal"
+        },
+        {
+          "text": "Terra Cloud",
+          "url": "https://www.terracloud.de/",
+          "icon": "fa-link",
+          "description": ""
+        },
+        {
+          "text": "REDDOXX Partner Portal",
+          "url": "https://partner.cloud.reddoxx.com/",
+          "icon": "fa-link",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "User Portale",
+      "icon": "fa-folder",
+      "items": [
+        {
+          "text": "ADDISON Portal",
+          "url": "https://services.portal-bereich.de/servicehosts/authority/Account/Login?ReturnUrl=%2Fservicehosts%2Fauthority%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Daoc.frontend%26redirect_uri%3Dhttps%253A%252F%252Fsteuerbuero-burkhardt.portal-bereich.de%252Fhtml%252F%26response_type%3Dcode%26scope%3Doneclick%2520openid%2520profile%26state%3DI2RvY3VtZW50c2hhcmluZz9jb2RlX2NoYWxsZW5nZT0zM2k4dHB3NWgyMThxa2dndnd4bHJxM3Y1MXdoNXJzaDJhM2IwbWlyNTRkZ3E2eWJwcHkxMHlvaXhwbHFjeGFq%26nonce%3D0.496726150145969%26code_challenge%3D33i8tpw5h218qkggvwxlrq3v51wh5rsh2a3b0mir54dgq6ybppy10yoixplqcxaj",
+          "icon": "fa-star",
+          "description": ""
+        },
+        {
+          "text": "2bAHEAD",
+          "url": "https://www.skool.com/ki-mittelstand",
+          "icon": "fa-headset",
+          "description": "KI Portal"
+        },
+        {
+          "text": "Unifi Portal",
+          "url": "https://account.ui.com/login?redirect=https%3A%2F%2Funifi.ui.com%2F",
+          "icon": "fa-wifi",
+          "description": "Unifi Verwaltung"
+        }
+      ]
+    },
+    {
+      "category": "Mail Archive",
+      "icon": "fa-folder",
+      "items": [
+        {
+          "text": "REDDOXX Partner Portal",
+          "url": "https://forum.reddoxx.com/index.php",
+          "icon": "fa-cloud",
+          "description": "Cloud Admin APP, Cloud User APP M365 onboarding"
+        },
+        {
+          "text": "REDDOXX Cloud",
+          "url": "https://app.cloud.reddoxx.com/login",
+          "icon": "fa-cloud-arrow-up",
+          "description": "Mailarchiv / User"
+        },
+        {
+          "text": "REDDOXX Partner Portal (on Prem)",
+          "url": "https://my.Reddoxx.com",
+          "icon": "fa-link",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Provider",
+      "icon": "fa-folder",
+      "items": [
+        {
+          "text": "Virualmin / Webmin",
+          "url": "https://vh25.sitg.eu:10000/",
+          "icon": "fa-globe",
+          "description": "Portal 2025"
+        },
+        {
+          "text": "QUality Hosting",
+          "url": "https://customer.qualityhosting.de/Login.aspx?ReturnUrl=%2f",
+          "icon": "fa-link",
+          "description": ""
+        },
+        {
+          "text": "Domains Sitg",
+          "url": "https://domains.sitg.eu/login.php",
+          "icon": "fa-link",
+          "description": "Domain anmeldung"
         }
       ]
     }

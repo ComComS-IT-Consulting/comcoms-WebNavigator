@@ -1,4 +1,4 @@
-{
+﻿{
   "company": {
     "name": "comcoms",
     "tagline": "Complete Computer Systems",
@@ -65,7 +65,7 @@
       "items": [
         {
           "text": "TERRA Cloud Backup",
-          "url": "https://manage.terracloud.de/login",
+          "url": "https://backup.terracloud.de/login",
           "icon": "fa-cloud-arrow-up",
           "description": "Datensicherung & Wiederherstellung"
         }

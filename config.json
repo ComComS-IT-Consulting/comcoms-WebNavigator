@@ -65,7 +65,7 @@
       "items": [
         {
           "text": "TERRA Cloud Backup",
-          "url": "https://backup.terracloud.de/login",
+          "url": "https://backup.terracloud.de/Account/LogOn?ReturnUrl=%2f",
           "icon": "fa-cloud-arrow-up",
           "description": "Datensicherung & Wiederherstellung"
         }

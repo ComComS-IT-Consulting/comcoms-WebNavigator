@@ -1,0 +1,69 @@
+{
+  "company": {
+    "name": "comcoms",
+    "tagline": "Complete Computer Systems",
+    "year": "2024"
+  },
+  "menu": [
+    {
+      "category": "RMM & Monitoring",
+      "icon": "fa-desktop",
+      "items": [
+        {
+          "text": "Ninja RMM",
+          "url": "https://comcoms.rmmservice.eu/",
+          "icon": "fa-laptop",
+          "description": "Remote Monitoring & Management"
+        }
+      ]
+    },
+    {
+      "category": "Sicherheit",
+      "icon": "fa-shield-halved",
+      "items": [
+        {
+          "text": "Securepoint Partner Portal",
+          "url": "https://my.securepoint.de",
+          "icon": "fa-virus-slash",
+          "description": "Securepoint Portal"
+        },
+        {
+          "text": "Intra 2 Net Partner Portal",
+          "url": "https://partner.intra2net.com/de/index.php",
+          "icon": "fa-fire",
+          "description": "Netzwerk-Sicherheit"
+        }
+      ]
+    },
+    {
+      "category": "Backup & Recovery",
+      "icon": "fa-database",
+      "items": [
+        {
+          "text": "Backup Manager",
+          "url": "https://example.com/backup",
+          "icon": "fa-cloud-arrow-up",
+          "description": "Datensicherung & Wiederherstellung"
+        }
+      ]
+    },
+    {
+      "category": "Cloud Services",
+      "icon": "fa-cloud",
+      "items": [
+        {
+          "text": "Microsoft 365 Admin",
+          "url": "https://admin.microsoft.com",
+          "icon": "fa-microsoft",
+          "description": "M365 Administration"
+        },
+        {
+          "text": "Azure Portal",
+          "url": "https://portal.azure.com",
+          "icon": "fa-cloud",
+          "description": "Azure Cloud Management"
+        }
+      ]
+    }
+  ]
+}

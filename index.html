@@ -386,15 +386,15 @@ const DEMO_CONFIG = {
 
 // ── CONFIG LADEN ────────────────────────────────────────────────
 async function loadConfig() {
-    if (!CONFIG_URL) return { data: DEMO_CONFIG, source: 'Demo' };
+    if (!CONFIG_URL) return { data: DEMO_CONFIG, source: 'demo', error: null };
     try {
         const r = await fetch(CONFIG_URL);
-        if (!r.ok) throw new Error('HTTP ' + r.status);
-        return { data: await r.json(), source: 'Google Drive' };
+        if (!r.ok) throw new Error('HTTP-Fehler ' + r.status);
+        const data = await r.json();
+        return { data, source: 'github', error: null };
     } catch (e) {
-        console.warn('Config-Fehler:', e);
-        setStatus('error', 'Fehler – Demo-Daten');
-        return { data: DEMO_CONFIG, source: 'Demo (Fallback)' };
+        console.warn('Config konnte nicht geladen werden:', e.message);
+        return { data: DEMO_CONFIG, source: 'demo', error: e.message };
     }
 }
 
@@ -488,16 +488,23 @@ function showLanding() {
 
 // ── INIT ─────────────────────────────────────────────────────────
 (async () => {
-    const { data, source } = await loadConfig();
+    const { data, source, error } = await loadConfig();
     buildMenu(data);
 
     // Footer
     document.getElementById('footerYear').textContent =
         '© ' + (data.company?.year || new Date().getFullYear()) + ' ' + (data.company?.name || 'comcoms');
-    document.getElementById('configSource').textContent = 'Quelle: ' + source;
+    document.getElementById('configSource').textContent =
+        source === 'github' ? 'Quelle: GitHub' : 'Quelle: Demo-Daten';
 
-    // Status
-    setStatus('ok', source === 'Demo' ? 'Demo-Konfiguration' : 'Konfiguration geladen');
+    // Status – Fehler darf NICHT überschrieben werden
+    if (error) {
+        setStatus('error', 'Fehler: ' + error + ' → Demo-Daten');
+    } else if (source === 'demo') {
+        setStatus('busy', 'Demo-Konfiguration (kein CONFIG_URL gesetzt)');
+    } else {
+        setStatus('ok', 'Konfiguration geladen (GitHub)');
+    }
 
     // Loading-Screen ausblenden
     setTimeout(() => document.getElementById('loading').classList.add('hidden'), 700);

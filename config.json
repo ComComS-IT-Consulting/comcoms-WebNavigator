@@ -13,13 +13,15 @@
           "text": "Ninja RMM",
           "url": "https://comcoms.rmmservice.eu/",
           "icon": "fa-laptop",
-          "description": "Remote Monitoring & Management"
+          "description": "Remote Monitoring & Management",
+          "favorite": true
         },
         {
           "text": "Terra Technical Center",
           "url": "https://manage.terracloud.de/login",
           "icon": "fa-list-check",
-          "description": "Login über Terra Cloud Center"
+          "description": "Login über Terra Cloud Center",
+          "favorite": true
         }
       ]
     },
@@ -31,31 +33,36 @@
           "text": "Securepoint Partner Portal",
           "url": "https://my.securepoint.de",
           "icon": "fa-virus-slash",
-          "description": "Securepoint Portal"
+          "description": "Securepoint Portal",
+          "favorite": true
         },
         {
           "text": "Intra 2 Net Partner Portal",
           "url": "https://partner.intra2net.com/de/index.php",
           "icon": "fa-fire",
-          "description": "Netzwerk-Sicherheit"
+          "description": "Netzwerk-Sicherheit",
+          "favorite": false
         },
         {
           "text": "ESET MSP Admin",
           "url": "https://identity.eset.com/login/pwd?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DEset.EMA%26redirect_uri%3Dhttps%253A%252F%252Fmsp.eset.com%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520eset_id%2520email%26response_mode%3Dform_post%26nonce%3D638409771849527757.ZjQ2YzRiMjctZTcwYy00NDM0LWE1YjUtY2NhMGU0YjU1NWEwNDcwMmI3MDUtYTVkZS00YWEzLTgwN2YtNzMyYzU1Y2QxMTJm%26state%3DCfDJ8NwK1mOjRypEr_mJu4xtkfCQhxRpOsXypx0TUmv4IOBt9UJKlf4TTLlTIDCY25RtFAfjHgVliIV4K-Mm2Z-ktYqDzgsN6KqD2P_IzWzQIVs9W2wuV380iKjIBWDghNU8AM5BZLEwOk8Euux87gXYLj9CeqRLkpnsW83gbDOXWv3dI0sW8Ke1SiF23ag_PXQgt_DPapO4mbBtxv144T1D-IjLloMgyFG7N36LPByFYnFEAZ1JHk2UmbfhRCgsUIlP6muqMEufipUIFm1EFzUzQX8XT9OVDo1X23gwjHdUh2QSIA9OITf29HwlWcIzGi7YdnBP6F6JjjQo6fUzOlTFbGZV5kY-vMuF9GOJDBoNkEqCu0Cp6f_bDkqs3YMUxwaU579aqWkCxtm3qFNtFO-NrPeUENRVJSpzhaxayYhzfrtwCyzoJjL8WgS_LICqTzkEFw",
           "icon": "fa-virus-slash",
-          "description": "Benötig Google Authentificator"
+          "description": "Benötig Google Authentificator",
+          "favorite": false
         },
         {
           "text": "ESET Business Account",
           "url": "https://eba.eset.com/ba",
           "icon": "fa-bacteria",
-          "description": "Business Account 2FA - Google Identificator"
+          "description": "Business Account 2FA - Google Identificator",
+          "favorite": false
         },
         {
           "text": "ESSET Protect Cloud Dashboard",
           "url": "https://identity.eset.com/login/pwd?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DERA%26response_type%3Dcode%26scope%3Dopenid%2520profile%2520eset_id%2520eca%26ui_locales%3Den-US%26redirect_uri%3Dhttps%253A%252F%252Fprotect.eset.com",
           "icon": "fa-chart-pie",
-          "description": "Dashboard 2FA Google Identificator"
+          "description": "Dashboard 2FA Google Identificator",
+          "favorite": false
         }
       ]
     },
@@ -65,9 +72,10 @@
       "items": [
         {
           "text": "TERRA Cloud Backup",
-          "url": "https://backup.terracloud.de/Account/LogOn?ReturnUrl=%2f",
+          "url": "https://manage.terracloud.de/login",
           "icon": "fa-cloud-arrow-up",
-          "description": "Datensicherung & Wiederherstellung"
+          "description": "Datensicherung & Wiederherstellung",
+          "favorite": true
         }
       ]
     },
@@ -79,13 +87,15 @@
           "text": "Microsoft 365 Admin",
           "url": "https://admin.microsoft.com",
           "icon": "fa-microsoft",
-          "description": "M365 Administration"
+          "description": "M365 Administration",
+          "favorite": true
         },
         {
           "text": "Azure Portal",
           "url": "https://portal.azure.com",
           "icon": "fa-cloud",
-          "description": "Azure Cloud Management"
+          "description": "Azure Cloud Management",
+          "favorite": true
         }
       ]
     },
@@ -97,19 +107,22 @@
           "text": "ESET Partner Portal",
           "url": "https://portal.eset.de/",
           "icon": "fa-globe",
-          "description": "Partner Portal"
+          "description": "Partner Portal",
+          "favorite": false
         },
         {
           "text": "Terra Cloud",
           "url": "https://www.terracloud.de/",
           "icon": "fa-link",
-          "description": ""
+          "description": "",
+          "favorite": false
         },
         {
           "text": "REDDOXX Partner Portal",
           "url": "https://partner.cloud.reddoxx.com/",
           "icon": "fa-link",
-          "description": ""
+          "description": "",
+          "favorite": false
         }
       ]
     },
@@ -121,19 +134,22 @@
           "text": "ADDISON Portal",
           "url": "https://services.portal-bereich.de/servicehosts/authority/Account/Login?ReturnUrl=%2Fservicehosts%2Fauthority%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Daoc.frontend%26redirect_uri%3Dhttps%253A%252F%252Fsteuerbuero-burkhardt.portal-bereich.de%252Fhtml%252F%26response_type%3Dcode%26scope%3Doneclick%2520openid%2520profile%26state%3DI2RvY3VtZW50c2hhcmluZz9jb2RlX2NoYWxsZW5nZT0zM2k4dHB3NWgyMThxa2dndnd4bHJxM3Y1MXdoNXJzaDJhM2IwbWlyNTRkZ3E2eWJwcHkxMHlvaXhwbHFjeGFq%26nonce%3D0.496726150145969%26code_challenge%3D33i8tpw5h218qkggvwxlrq3v51wh5rsh2a3b0mir54dgq6ybppy10yoixplqcxaj",
           "icon": "fa-star",
-          "description": ""
+          "description": "",
+          "favorite": false
         },
         {
           "text": "2bAHEAD",
           "url": "https://www.skool.com/ki-mittelstand",
           "icon": "fa-headset",
-          "description": "KI Portal"
+          "description": "KI Portal",
+          "favorite": false
         },
         {
           "text": "Unifi Portal",
           "url": "https://account.ui.com/login?redirect=https%3A%2F%2Funifi.ui.com%2F",
           "icon": "fa-wifi",
-          "description": "Unifi Verwaltung"
+          "description": "Unifi Verwaltung",
+          "favorite": true
         }
       ]
     },
@@ -145,19 +161,22 @@
           "text": "REDDOXX Partner Portal",
           "url": "https://forum.reddoxx.com/index.php",
           "icon": "fa-cloud",
-          "description": "Cloud Admin APP, Cloud User APP M365 onboarding"
+          "description": "Cloud Admin APP, Cloud User APP M365 onboarding",
+          "favorite": false
         },
         {
           "text": "REDDOXX Cloud",
           "url": "https://app.cloud.reddoxx.com/login",
           "icon": "fa-cloud-arrow-up",
-          "description": "Mailarchiv / User"
+          "description": "Mailarchiv / User",
+          "favorite": false
         },
         {
           "text": "REDDOXX Partner Portal (on Prem)",
           "url": "https://my.Reddoxx.com",
           "icon": "fa-link",
-          "description": ""
+          "description": "",
+          "favorite": false
         }
       ]
     },
@@ -169,19 +188,22 @@
           "text": "Virualmin / Webmin",
           "url": "https://vh25.sitg.eu:10000/",
           "icon": "fa-globe",
-          "description": "Portal 2025"
+          "description": "Portal 2025",
+          "favorite": false
         },
         {
           "text": "QUality Hosting",
           "url": "https://customer.qualityhosting.de/Login.aspx?ReturnUrl=%2f",
           "icon": "fa-link",
-          "description": ""
+          "description": "",
+          "favorite": false
         },
         {
           "text": "Domains Sitg",
           "url": "https://domains.sitg.eu/login.php",
           "icon": "fa-link",
-          "description": "Domain anmeldung"
+          "description": "Domain anmeldung",
+          "favorite": false
         }
       ]
     },
@@ -193,7 +215,8 @@
           "text": "ComComS Webnavigator",
           "url": "https://comcoms-it-consulting.github.io/comcoms-WebNavigator",
           "icon": "fa-power-off",
-          "description": "Die Anwenung zu diesem Zeug"
+          "description": "Die Anwenung zu diesem Zeug",
+          "favorite": false
         }
       ]
     },
@@ -205,25 +228,29 @@
           "text": "Skywork KI-Agent",
           "url": "https://skywork.ai/",
           "icon": "fa-brain",
-          "description": "All-in-One KI-Agent mit Deep Research"
+          "description": "All-in-One KI-Agent mit Deep Research",
+          "favorite": true
         },
         {
           "text": "AnythingLLM",
           "url": "https://anythingllm.com/",
           "icon": "fa-robot",
-          "description": "The all-in-one AI application"
+          "description": "The all-in-one AI application",
+          "favorite": false
         },
         {
           "text": "Beautiful.ai",
           "url": "https://www.beautiful.ai/",
           "icon": "fa-file-powerpoint",
-          "description": "KI-Präsentationen erstellen"
+          "description": "KI-Präsentationen erstellen",
+          "favorite": false
         },
         {
           "text": "VideoExpress.AI",
           "url": "https://videoexpress.ai/tutorials/",
           "icon": "fa-video",
-          "description": "KI-Video-Erstellung"
+          "description": "KI-Video-Erstellung",
+          "favorite": false
         }
       ]
     },
@@ -235,25 +262,29 @@
           "text": "Google AI Studio",
           "url": "https://aistudio.google.com/app/gallery",
           "icon": "fa-magnifying-glass",
-          "description": "Prompt Gallery – Google AI Studio"
+          "description": "Prompt Gallery – Google AI Studio",
+          "favorite": false
         },
         {
           "text": "Gemini API",
           "url": "https://ai.google.dev/gemini-api/docs/quickstart?hl=de&lang=python",
           "icon": "fa-code",
-          "description": "Gemini API Kurzanleitung (Python)"
+          "description": "Gemini API Kurzanleitung (Python)",
+          "favorite": false
         },
         {
           "text": "Ollama",
           "url": "https://ollama.com/download",
           "icon": "fa-download",
-          "description": "Lokale KI-Modelle auf Windows"
+          "description": "Lokale KI-Modelle auf Windows",
+          "favorite": false
         },
         {
           "text": "bolt.new",
           "url": "https://bolt.new/",
           "icon": "fa-bolt",
-          "description": "KI-gestützter Web-Code-Editor"
+          "description": "KI-gestützter Web-Code-Editor",
+          "favorite": false
         }
       ]
     },
@@ -265,7 +296,8 @@
           "text": "Onepage AI Webinar",
           "url": "https://checkout.onepage.io/de",
           "icon": "fa-chalkboard-user",
-          "description": "KI-Features & Boni – Webinar"
+          "description": "KI-Features & Boni – Webinar",
+          "favorite": false
         }
       ]
     },
@@ -277,7 +309,8 @@
           "text": "Microsoft Teams Chat",
           "url": "https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fchat%2F19%3A47e9639a5fea4ae2b979e9dc607dc232%40thread.v2%2Fconversations%3Fcontext%3D%257B%2522contextType%2522%253A%2522chat%2522%257D&type=chat&deeplinkId=0c90a2b7-57f6-4a9b-a83f-11f6de0a964b&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true",
           "icon": "fa-message",
-          "description": "Teams Unterhaltung öffnen"
+          "description": "Teams Unterhaltung öffnen",
+          "favorite": true
         }
       ]
     }

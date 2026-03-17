@@ -77,7 +77,7 @@
             display: flex; align-items: center; gap: 12px;
             cursor: pointer; user-select: none;
         }
-        .sidebar-logo img   { height: 34px; width: auto; }
+        .sidebar-logo img   { height: 38px; width: auto; object-fit: contain; }
         .logo-fallback      { display: none; flex-direction: column; }
         .logo-name          { font-size: 22px; font-weight: 800; color: var(--orange); }
         .logo-tagline       { font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1.2px; }
@@ -280,8 +280,8 @@
 <!-- ── SIDEBAR ────────────────────────────────────────────── -->
 <aside id="sidebar">
     <div class="sidebar-logo" onclick="showLanding()">
-        <!-- Lege logo.png in denselben Ordner wie diese index.html -->
-        <img src="logo.png" alt="comcoms"
+        <img src="https://raw.githubusercontent.com/ComComs-IT-Consulting/comcoms-WebNavigator/main/logo.png"
+             alt="comcoms"
              onerror="this.style.display='none'; document.querySelector('.logo-fallback').style.display='flex';">
         <div class="logo-fallback">
             <span class="logo-name">comcoms</span>
@@ -321,7 +321,7 @@
         </div>
 
         <div class="section-head">
-            <i class="fas fa-bolt" style="color:var(--orange)"></i> Schnellzugriff
+            <i class="fas fa-star" style="color:var(--orange)"></i> Favoriten
         </div>
         <div class="cards-grid" id="quickCards"></div>
     </section>
@@ -404,7 +404,6 @@ function buildMenu(cfg) {
     const cards = document.getElementById('quickCards');
     nav.innerHTML = '';
     cards.innerHTML = '';
-    let cardCount = 0;
 
     cfg.menu.forEach(cat => {
         // Sidebar-Kategorie
@@ -437,11 +436,12 @@ function buildMenu(cfg) {
             a.innerHTML = `
                 <span class="i-icon"><i class="fas ${item.icon || 'fa-link'}"></i></span>
                 <span class="i-label">${item.text}</span>
+                ${item.favorite ? '<i class="fas fa-star" style="font-size:9px;color:var(--orange);margin-right:4px;opacity:.8;"></i>' : ''}
                 <i class="fas fa-arrow-up-right-from-square i-ext"></i>`;
             itemsEl.appendChild(a);
 
-            // Quick-Access-Card (max. 8)
-            if (cardCount < 8) {
+            // Favoriten-Card – nur wenn favorite === true gesetzt
+            if (item.favorite === true) {
                 const card = document.createElement('a');
                 card.className = 'svc-card';
                 card.href      = item.url;
@@ -455,7 +455,6 @@ function buildMenu(cfg) {
                     </div>
                     <i class="fas fa-chevron-right card-arr"></i>`;
                 cards.appendChild(card);
-                cardCount++;
             }
         });
 
